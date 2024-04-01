@@ -1,0 +1,782 @@
+[
+    {
+        "id": 1,
+        "name": "IIT Bombay - Indian Institute of Technology - (IITB), Mumbai",
+        "address": "Mumbai, Maharashtra | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 145"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Computer Application",
+                "label": "JEE-Advanced 2023 Cutoff - 120"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Civil Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 240"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitbombay.jpg",
+        "rank": "#1",
+        "course_fee": {
+            "price": "2,09,550",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "21,48,000",
+            "highest_package": "1,98,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.6/10",
+            "user_count": "289"
+        },
+        "ranking": "3rd/131 in India",
+        "feature": true
+    },
+    {
+        "id": 2,
+        "name": "IIT Delhi - Indian Institute of Technology - (IITD), Delhi",
+        "address": "New Delhi, Delhi | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Electrical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 130"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Computer Science and Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 150"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Mechanical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 120"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitdelhi.jpg",
+        "rank": "#2",
+        "course_fee": {
+            "price": "2,30,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "20,80,000",
+            "highest_package": "1,90,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.9/10",
+            "user_count": "320"
+        },
+        "ranking": "5th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 3,
+        "name": "IIT Madras - Indian Institute of Technology - (IITM), Chennai",
+        "address": "Chennai, Tamil Nadu | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Aerospace Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 140"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Computer Science and Technology",
+                "label": "JEE-Advanced 2023 Cutoff - 135"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Chemical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 125"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitmadras.jpg",
+        "rank": "#3",
+        "course_fee": {
+            "price": "2,15,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "22,00,000",
+            "highest_package": "2,10,00,000"
+        },
+        "user_reviews": {
+            "rating": "9.2/10",
+            "user_count": "300"
+        },
+        "ranking": "2nd/131 in India",
+        "feature": false
+    },
+    {
+        "id": 4,
+        "name": "BITS Pilani - Birla Institute of Technology and Science, Pilani",
+        "address": "Pilani, Rajasthan | UGC Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Electronics and Communication Engineering",
+                "label": "BITSAT 2023 Cutoff - 320"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Pharmacy",
+                "label": "BITSAT 2023 Cutoff - 280"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Computer Science Engineering",
+                "label": "BITSAT 2023 Cutoff - 340"
+            }
+        ],
+        "college_logo": "https://www.logo.com/bitspilani.jpg",
+        "rank": "#4",
+        "course_fee": {
+            "price": "3,00,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "18,50,000",
+            "highest_package": "1,80,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.4/10",
+            "user_count": "275"
+        },
+        "ranking": "7th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 5,
+        "name": "IIIT Hyderabad - International Institute of Information Technology, Hyderabad",
+        "address": "Hyderabad, Telangana | UGC Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Main 2023 Cutoff - 210"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Science in Computer Science",
+                "label": "JEE-Main 2023 Cutoff - 200"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electronics and Communication Engineering",
+                "label": "JEE-Main 2023 Cutoff - 190"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iiithyderabad.jpg",
+        "rank": "#5",
+        "course_fee": {
+            "price": "2,50,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "19,00,000",
+            "highest_package": "1,70,00,000"
+        },
+        "user_reviews": {
+            "rating": "9.1/10",
+            "user_count": "290"
+        },
+        "ranking": "4th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 6,
+        "name": "IIT Kanpur - Indian Institute of Technology - (IITK), Kanpur",
+        "address": "Kanpur, Uttar Pradesh | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Aerospace Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 150"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Computer Science and Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 140"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Chemical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 130"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitkanpur.jpg",
+        "rank": "#6",
+        "course_fee": {
+            "price": "2,20,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "21,00,000",
+            "highest_package": "2,00,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.8/10",
+            "user_count": "310"
+        },
+        "ranking": "6th/131 in India"
+,
+"feature": false    },
+    {
+        "id": 7,
+        "name": "NIT Trichy - National Institute of Technology, Tiruchirappalli",
+        "address": "Tiruchirappalli, Tamil Nadu | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Main 2023 Cutoff - 190"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Architecture",
+                "label": "JEE-Main 2023 Cutoff - 180"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electrical and Electronics Engineering",
+                "label": "JEE-Main 2023 Cutoff - 170"
+            }
+        ],
+        "college_logo": "https://www.logo.com/nittrichy.jpg",
+        "rank": "#7",
+        "course_fee": {
+            "price": "1,80,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "17,50,000",
+            "highest_package": "1,60,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.3/10",
+            "user_count": "280"
+        },
+        "ranking": "10th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 8,
+        "name": "VIT Vellore - Vellore Institute of Technology, Vellore",
+        "address": "Vellore, Tamil Nadu | UGC Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "VITEEE 2023 Cutoff - 75"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Business Administration",
+                "label": "VITEEE 2023 Cutoff - 80"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Mechanical Engineering",
+                "label": "VITEEE 2023 Cutoff - 85"
+            }
+        ],
+        "college_logo": "https://www.logo.com/vitvellore.jpg",
+        "rank": "#8",
+        "course_fee": {
+            "price": "2,70,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "16,80,000",
+            "highest_package": "1,50,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.0/10",
+            "user_count": "260"
+        },
+        "ranking": "14th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 9,
+        "name": "IIT Guwahati - Indian Institute of Technology - (IITG), Guwahati",
+        "address": "Guwahati, Assam | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Electronics and Electrical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 160"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Design",
+                "label": "JEE-Advanced 2023 Cutoff - 150"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 140"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitguwahati.jpg",
+        "rank": "#9",
+        "course_fee": {
+            "price": "2,25,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "19,20,000",
+            "highest_package": "1,80,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.7/10",
+            "user_count": "290"
+        },
+        "ranking": "8th/131 in India"
+,
+"feature": false    },
+    {
+        "id": 10,
+        "name": "NIT Warangal - National Institute of Technology, Warangal",
+        "address": "Warangal, Telangana | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Electrical Engineering",
+                "label": "JEE-Main 2023 Cutoff - 180"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Technology",
+                "label": "JEE-Main 2023 Cutoff - 170"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Main 2023 Cutoff - 160"
+            }
+        ],
+        "college_logo": "https://www.logo.com/nitwarangal.jpg",
+        "rank": "#10",
+        "course_fee": {
+            "price": "1,70,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "16,50,000",
+            "highest_package": "1,70,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.5/10",
+            "user_count": "270"
+        },
+        "ranking": "11th/131 in India",
+        "feature": true
+    },
+    {
+        "id": 11,
+        "name": "IIT Roorkee - Indian Institute of Technology - (IITR), Roorkee",
+        "address": "Roorkee, Uttarakhand | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Biotechnology",
+                "label": "JEE-Advanced 2023 Cutoff - 170"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Architecture",
+                "label": "JEE-Advanced 2023 Cutoff - 160"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electrical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 150"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitroorkee.jpg",
+        "rank": "#11",
+        "course_fee": {
+            "price": "2,40,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "18,70,000",
+            "highest_package": "1,85,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.2/10",
+            "user_count": "280"
+        },
+        "ranking": "9th/131 in India"
+,
+"feature": false    },
+    {
+        "id": 12,
+        "name": "NIT Karnataka - National Institute of Technology, Surathkal",
+        "address": "Surathkal, Karnataka | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Information Technology",
+                "label": "JEE-Main 2023 Cutoff - 150"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Technology",
+                "label": "JEE-Main 2023 Cutoff - 140"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electronics and Communication Engineering",
+                "label": "JEE-Main 2023 Cutoff - 130"
+            }
+        ],
+        "college_logo": "https://www.logo.com/nitkarnataka.jpg",
+        "rank": "#12",
+        "course_fee": {
+            "price": "1,90,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "16,00,000",
+            "highest_package": "1,60,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.1/10",
+            "user_count": "265"
+        },
+        "ranking": "12th/131 in India",
+        "feature": true
+    },
+    {
+        "id": 13,
+        "name": "IIT Hyderabad - Indian Institute of Technology - (IITH), Hyderabad",
+        "address": "Hyderabad, Telangana | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 160"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Design",
+                "label": "JEE-Advanced 2023 Cutoff - 150"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electrical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 140"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iithyderabad.jpg",
+        "rank": "#13",
+        "course_fee": {
+            "price": "2,20,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "17,90,000",
+            "highest_package": "1,70,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.6/10",
+            "user_count": "280"
+        },
+        "ranking": "10th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 14,
+        "name": "IIT BHU Varanasi - Indian Institute of Technology - (IITBHU), Varanasi",
+        "address": "Varanasi, Uttar Pradesh | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Mining Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 180"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Technology",
+                "label": "JEE-Advanced 2023 Cutoff - 170"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Ceramic Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 160"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitbhuvaranasi.jpg",
+        "rank": "#14",
+        "course_fee": {
+            "price": "2,35,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "18,00,000",
+            "highest_package": "1,80,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.3/10",
+            "user_count": "270"
+        },
+        "ranking": "13th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 15,
+        "name": "IIT Indore - Indian Institute of Technology - (IITI), Indore",
+        "address": "Indore, Madhya Pradesh | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 150"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Design",
+                "label": "JEE-Advanced 2023 Cutoff - 140"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electrical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 130"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitindore.jpg",
+        "rank": "#15",
+        "course_fee": {
+            "price": "2,10,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "17,70,000",
+            "highest_package": "1,90,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.5/10",
+            "user_count": "285"
+        },
+        "ranking": "11th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 16,
+        "name": "IIT Jodhpur - Indian Institute of Technology - (IITJ), Jodhpur",
+        "address": "Jodhpur, Rajasthan | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Mechanical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 160"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Technology",
+                "label": "JEE-Advanced 2023 Cutoff - 150"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electrical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 140"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitjodhpur.jpg",
+        "rank": "#16",
+        "course_fee": {
+            "price": "2,25,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "17,50,000",
+            "highest_package": "1,80,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.4/10",
+            "user_count": "275"
+        },
+        "ranking": "12th/131 in India",
+        "feature": true
+    },
+    {
+        "id": 17,
+        "name": "IIIT Delhi - Indraprastha Institute of Information Technology, Delhi",
+        "address": "New Delhi, Delhi | UGC Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Applied Mathematics",
+                "label": "JEE-Main 2023 Cutoff - 180"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Technology",
+                "label": "JEE-Main 2023 Cutoff - 170"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electronics and Communication Engineering",
+                "label": "JEE-Main 2023 Cutoff - 160"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iiitdelhi.jpg",
+        "rank": "#17",
+        "course_fee": {
+            "price": "2,40,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "18,90,000",
+            "highest_package": "1,80,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.7/10",
+            "user_count": "295"
+        },
+        "ranking": "9th/131 in India"
+,
+"feature": false    },
+    {
+        "id": 18,
+        "name": "NIT Calicut - National Institute of Technology, Calicut",
+        "address": "Calicut, Kerala | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Main 2023 Cutoff - 160"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Architecture",
+                "label": "JEE-Main 2023 Cutoff - 150"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electrical and Electronics Engineering",
+                "label": "JEE-Main 2023 Cutoff - 140"
+            }
+        ],
+        "college_logo": "https://www.logo.com/nitcalicut.jpg",
+        "rank": "#18",
+        "course_fee": {
+            "price": "1,75,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "16,30,000",
+            "highest_package": "1,70,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.1/10",
+            "user_count": "270"
+        },
+        "ranking": "14th/131 in India",
+        "feature": true
+    },
+    {
+        "id": 19,
+        "name": "IIIT Bangalore - International Institute of Information Technology, Bangalore",
+        "address": "Bangalore, Karnataka | UGC Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Main 2023 Cutoff - 180"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Technology",
+                "label": "JEE-Main 2023 Cutoff - 170"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electronics and Communication Engineering",
+                "label": "JEE-Main 2023 Cutoff - 160"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iiitbangalore.jpg",
+        "rank": "#19",
+        "course_fee": {
+            "price": "2,50,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "17,50,000",
+            "highest_package": "1,60,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.9/10",
+            "user_count": "285"
+        },
+        "ranking": "13th/131 in India",
+        "feature": false
+    },
+    {
+        "id": 20,
+        "name": "IIT Patna - Indian Institute of Technology - (IITP), Patna",
+        "address": "Patna, Bihar | AICTE Approved",
+        "courses": [
+            {
+                "id": 1,
+                "name": "B. Tech Computer Science and Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 170"
+            },
+            {
+                "id": 2,
+                "name": "Bachelor of Design",
+                "label": "JEE-Advanced 2023 Cutoff - 160"
+            },
+            {
+                "id": 3,
+                "name": "B. Tech Electrical Engineering",
+                "label": "JEE-Advanced 2023 Cutoff - 150"
+            }
+        ],
+        "college_logo": "https://www.logo.com/iitpatna.jpg",
+        "rank": "#20",
+        "course_fee": {
+            "price": "2,20,000",
+            "course": "BE/B.Tech",
+            "year": "1st year Fees"
+        },
+        "placement": {
+            "avg_package": "17,80,000",
+            "highest_package": "1,70,00,000"
+        },
+        "user_reviews": {
+            "rating": "8.6/10",
+            "user_count": "275"
+        },
+        "ranking": "12th/131 in India",
+        "feature": false
+    }
+]

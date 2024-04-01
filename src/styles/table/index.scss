@@ -1,0 +1,86 @@
+.main_table__container {
+    width: 95%;
+    margin: auto;
+    height: 90vh;
+
+
+    table {
+        width: 100%;
+        height: 600px;
+    }
+
+    thead {
+        background-color: #78bec3;
+        font-size: 20px;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+
+        tr td:nth-child(2) {
+            min-width: 200px;
+            width: 600px;
+        }
+
+        tr td:nth-child(1) {
+            max-width: 50px;
+        }
+    }
+
+    tbody {
+
+        cursor: pointer;
+
+        td .college_info {
+            width: 100%;
+            height: 40px;
+            margin: auto;
+        }
+
+        tr {
+            height: 140px;
+        }
+
+        td {
+            outline: thin solid grey;
+            padding: 7px;
+        }
+    }
+
+    .collge_button {
+        button {
+            margin-right: 70px;
+            border: none;
+            background: none;
+        }
+
+        button:nth-child(1) {
+            color: orange;
+        }
+
+        button:nth-child(2){
+            color: #78bec3;
+        }
+    }
+
+    .course_fee {
+        span {
+            color: orange;
+        }
+    }
+
+    .college_med {
+        display: flex;
+        div{
+            margin-right: 10px;
+        }
+        div:nth-child(1){
+            border: 1px solid orange;
+            height: 40px;
+        }
+    }
+
+    .selected_row{
+        background-color: #c3ab9b;
+    }
+}
