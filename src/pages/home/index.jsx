@@ -1,72 +1,114 @@
 import Table from '../../components/Table';
 import DataTable from '../../Data/index.json';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const Home = () => {
-    const [searchTerm, setSearchTerm] = useState('');
     const [loading, setLoading] = useState(false);
     const [data, setData] = useState(DataTable);
+    const [visibleData, setVisibleData] = useState([]);
+    const tableRef = useRef(null);
 
-    function handleSearch(e) {
-        setSearchTerm(e?.target?.value);
-        let filteredData = data.filter((data) => {
-            return data.name.toLowerCase().includes(searchTerm.toLocaleLowerCase());
-        })
+    useEffect(() => {
+        setData(DataTable);
+        setVisibleData(DataTable.slice(0, 10));
+    }, []);
+
+    useEffect(() => {
+        const table = tableRef.current;
+        table.addEventListener('scroll', handleScroll);
+        return () => {
+            table.removeEventListener('scroll', handleScroll);
+        };
+    });
+
+    const handleScroll = () => {
+        const table = tableRef.current;
+        if (table.scrollHeight - table.scrollTop <= table.clientHeight+1) {
+            setLoading(true);
+            loadMoreData();
+            setLoading(false)
+        }
+    };
+
+    const loadMoreData = () => {
+        const currentLength = visibleData.length;
+        const nextData = data.slice(currentLength, currentLength + 10);
+        setVisibleData(prevData => [...prevData, ...nextData]);
+    };
+
+    const handleSearch = (e) => {
+        const searchTerm = e.target.value.toLowerCase();
+        let filteredData = DataTable.filter((item) => {
+            return item.name.toLowerCase().includes(searchTerm);
+        });
         setData(filteredData);
-    }
+        setVisibleData(filteredData.slice(0, 10));  
+    };
+
 
     function handleSortByFees(e) {
         const selectedFees = e.target.value;
 
-        let filteredData = data.filter((college) => {
+        let filteredData = DataTable.filter((college) => {
             if (!selectedFees) return true;
             const prices = selectedFees.split('-');
             const lowest = parseInt(prices[0]);
             const highest = parseInt(prices[1]);
-            const collegePrice = parseInt(college.course_fee.price);
+            const collegePrice = parseInt(college.course_fee.price.replace(/,/g, ''));
             return collegePrice >= lowest && collegePrice <= highest;
         });
         setData(filteredData);
-    };
+        setVisibleData(filteredData.slice(0, 10));  
+    }
+
 
     function handleSortByRating(e) {
         const selectedRating = e.target.value;
 
-        let filteredData = data.filter((college) => {
+        let filteredData = DataTable.filter((college) => {
             if (!selectedRating) return true;
-            const prices = selectedRating.split('-');
-            const lowest = parseInt(prices[0]);
-            const highest = parseInt(prices[1]);
-            const collegeRating = parseInt(college.user_reviews.rating);
+            const ratings = selectedRating.split('-');
+            const lowest = parseFloat(ratings[0]);
+            const highest = parseFloat(ratings[1]);
+            const collegeRating = parseFloat(college.user_reviews.rating);
             return collegeRating >= lowest && collegeRating <= highest;
         });
         setData(filteredData);
+        setVisibleData(filteredData.slice(0, 10));  
     }
 
-    function handleUserReviewSort(e){
-        const order = e?.target?.value;
-        let filteredData;
-        if(order==="asc"){
-            filteredData = data.sort((a,b)=> {return parseInt(a.user_reviews.user_count)-parseInt(b.user_reviews.user_count)});
-        }else if(order==="desc"){ 
-            filteredData = data.sort((a,b)=> {return parseInt(b.user_reviews.user_count)-parseInt(a.user_reviews.user_count)});
+
+    function handleUserReviewSort(e) {
+        const order = e.target.value;
+        let sortedData;
+        if (order === "asc") {
+            sortedData = [...data].sort((a, b) => parseInt(a.user_reviews.user_count) - parseInt(b.user_reviews.user_count));
+        } else if (order === "desc") {
+            sortedData = [...data].sort((a, b) => parseInt(b.user_reviews.user_count) - parseInt(a.user_reviews.user_count));
         }
-        setData(filteredData);
+        setData(sortedData);
+        setVisibleData(sortedData.slice(0, 10));  
     }
 
 
-    function handleAscendingOrder(){
-        let filteredData = data.sort((a, b)=> { return a.name - b.name});
-        setData(filteredData);
-    console.log(data)
+
+    function extractRankNumber(rank) {
+        const match = rank.match(/\d+/);
+        return match ? parseInt(match[0]) : 0;
+    }
+    
+    function handleAscendingOrder() {
+        const sortedData = [...data].sort((a, b) => extractRankNumber(a.rank) - extractRankNumber(b.rank));
+        setData(sortedData);
+        setVisibleData(sortedData.slice(0, 10));  
+    }
+    
+    function handleDescendingOrder() {
+        const sortedData = [...data].sort((a, b) => extractRankNumber(b.rank) - extractRankNumber(a.rank));
+        setData(sortedData);
+        setVisibleData(sortedData.slice(0, 10));  
     }
 
-    function handleDescendingOrder(){
-        let filteredData = data.sort((a, b)=> { return b.name - a.name});
-        setData(filteredData);
-    console.log(data)
-
-    }
 
     return (
         <div className="home_page_main__container">
@@ -92,11 +134,11 @@ const Home = () => {
                     <option value="asc">Low to High</option>
                     <option value="desc">High to Low</option>
                 </select>
-                <button onClick={() => handleAscendingOrder}>Asc Order</button>
-                <button onClick={() => handleDescendingOrder}>Desc Order</button>
+                <button onClick={handleAscendingOrder}>Asc Order</button>
+                <button onClick={handleDescendingOrder}>Desc Order</button>
             </div>
-            <div className='home_page_table__section'>
-                <Table data={data} loading={loading} />
+            <div className='home_page_table__section' ref={tableRef} style={{overflowY: "auto"}}>
+                <Table data={visibleData} loading={loading} />
             </div>
         </div>
     )

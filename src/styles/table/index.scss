@@ -23,7 +23,7 @@
         }
 
         tr td:nth-child(1) {
-            max-width: 50px;
+            min-width: 60px;
         }
     }
 
@@ -81,6 +81,14 @@
     }
 
     .selected_row{
-        background-color: #c3ab9b;
+        background-color: whitesmoke;
     }
+}
+
+
+.feature__flag {
+    background-color: red;
+    color: white;
+    padding: 2px 2px 2px 2px;
+    border-radius: 2px 3px 3px 2px;
 }
